@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="style.css" />
     <title>project-11</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="mobile.css">
 </head>
 
 <body>
     <header class="nav-container">
-        <nav class="flex navbar align-center w-boxed" id="navbar">
+        <nav class="flex navbar align-center w-boxed plr-20" id="navbar">
             <div class="logo grow-1">
                 <img src="img/Logo.png" alt="Logo" id="logo" />
             </div>
@@ -24,13 +25,15 @@
                     <li class="nav-item"><a href="#">Feature</a></li>
                     <li class="nav-item"><a href="#">Pricing</a></li>
                     <li class="nav-item"><a href="#">About Us</a></li>
+                    <img src="img/icons8-menu.svg" alt="menu" class="mobile-menu-icon">
                     <button class="btn nav-btn">Register Now</button>
                 </ul>
             </div>
         </nav>
     </header>
-    <section class="hero-container flex w-boxed align-center">
-        <div class="left-col col-w50 hero-text">
+    <!-- hero-section -->
+    <section class="hero-container plr-20 flex w-boxed align-center">
+        <div class="left-col col-w50 md-col-100 hero-text">
             <h1>Great websites start with unlimited hosting</h1>
             <p>
                 We provide the best offer of unlimited web hosting. The most complete
@@ -39,16 +42,16 @@ disposal.
             </p>
             <button class="btn hero-btn graident-btn">Choose Package</button>
         </div>
-        <div class="right-col col-w50">
+        <div class="right-col col-w50 md-col-100">
             <img src="/img/Screenshot 2022-08-05 at 4.53.24 PM.png" alt="" class="hero-img" />
         </div>
     </section>
     <!-- section-1 -->
-    <section class="section-1 w-boxed flex align-center" id="section-1">
-        <div class="col-w50">
+    <section class="section-1 w-boxed plr-20 flex md-flex-col align-center" id="section-1">
+        <div class="col-w50 md-col-100">
             <img src="/img/Screenshot 2022-08-05 at 4.54.54 PM.png" loading="lazy" alt="" />
         </div>
-        <div class="col-w50 flex-col">
+        <div class="col-w50 md-col-100 flex-col">
             <h1 class="text-capitalize">
                 We provide the best quality with low cost
             </h1>
@@ -63,8 +66,8 @@ disposal.
         </div>
     </section>
     <!-- section-2 -->
-    <section class="section-2 w-boxed flex align-center" id="section-2">
-        <div class="col-w50 flex-col">
+    <section class="section-2 plr-20 w-boxed flex md-flex-col-reverse align-center" id="section-2">
+        <div class="col-w50 md-col-100 flex-col">
             <h1 class="text-capitalize">Number 1 technical support in indonesia</h1>
             <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat quod
@@ -75,17 +78,17 @@ disposal.
                 Read more
             </button>
         </div>
-        <div class="col-w50">
+        <div class="col-w50 md-col-100">
             <img src="/img/technical support illustration-01.svg" loading="lazy" alt="" />
         </div>
     </section>
     <!-- section-3 -->
     <section class="section-3 w-boxed" id="section-3">
-        <div class="heading flex align-center">
-            <div class="col-w50">
+        <div class="heading flex md-flex-col md-text-center plr-20 align-center">
+            <div class="col-w50 md-col-100">
                 <h1 class="text-capitalize">services we provide at thor hosting</h1>
             </div>
-            <div class="col-w50">
+            <div class="col-w50 md-col-100">
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
                     esse veniam hic accusamus quod ab, quas porro quisquam rem beatae
@@ -93,7 +96,7 @@ disposal.
                 </p>
             </div>
         </div>
-        <div class="services flex flex-wrap">
+        <div class="services flex plr-20 flex-wrap">
             <div class="card">
                 <img src="/img/cloud-hosting.svg" loading="lazy" alt="unlimited hosting" />
                 <h2 class="text-capitalize">unlimited hosting</h2>
@@ -151,7 +154,7 @@ disposal.
                 flexible & transparent pricing
             </h1>
         </div>
-        <div class="table-container justify-center w-boxed flex">
+        <div class="table-container plr-20 justify-center w-boxed flex">
             <div class="table">
                 <div class="table-heading">
                     <h2 class=" text-capitalize">starter pack</h2>
@@ -245,7 +248,7 @@ disposal.
             <h1 class="text-capitalize">Our customer love us</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni totam doloremque <br> amet maiores aut accusantium veniam temporibus sed omnis non.</p>
         </div>
-        <div class="testimonial-container flex justify-center flex-wrap">
+        <div class="testimonial-container plr-20 flex justify-center flex-wrap">
             <div class="testimonial-card">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere tempore, doloribus pariatur tenetur fugiat ex nulla non dolores, dolore accusantium voluptas optio quidem, libero a blanditiis. Doloribus quod excepturi optio.</p>
                 <div class="testimonial-info flex align-center">
@@ -291,25 +294,25 @@ disposal.
 
     <!-- section-6 -->
     <section class="section-6">
-        <div class="register-container flex align-center w-boxed">
-            <div class="col-w50 heading-column">
+        <div class="register-container plr-20 flex md-flex-col align-center w-boxed">
+            <div class="col-w50 md-col-100 md-text-center heading-column">
                 <h1>Quit Worrying about <br> Oce-Hosting services </h1> 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, consequatur pariatur! Delectus eaque deserunt dolorem, corrupti repellendus sit iure!</p>
             </div>
-            <div class="col-w50 btn-column">
+            <div class="col-w50 md-col-100 md-text-center btn-column">
                <button class="text-capitalize btn">register now</button>
             </div>
         </div>
     </section>
 
     <!-- footer -->
-    <footer class="footer" id="footer">
-        <div class="footer-container w-boxed flex">
-            <div class="footer-logo ">
+    <footer class="footer  plr-20" id="footer">
+        <div class="footer-container flex-wrap w-boxed flex">
+            <div class="footer-logo md-col-100 ">
                 <img src="/img/Logo.png" alt="footer logo">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia assumenda placeat maxime!</p>
             </div>
-            <div class="footer-menu">
+            <div class="footer-menu md-col-50">
                 <h2>Menu</h2>
             <ul class="footer-menu-items">
                 <li class="footer-menu-item">Home</li>
@@ -318,7 +321,7 @@ disposal.
                 <li class="footer-menu-item">Contact Us</li>
             </ul>
             </div>
-            <div class="footer-links">
+            <div class="footer-links  md-col-50">
                 <h2>Links</h2>
                 <ul class="footer-links-items">
                     <li class="footer-link">Partner</li>
@@ -327,7 +330,7 @@ disposal.
                     <li class="footer-link">Community</li>
                 </ul>
             </div>
-            <div class="footer-overview">
+            <div class="footer-overview  md-col-100">
                 <h2>Overview</h2>
                 <ul class="overview-items">
                     <li class="overview-link">Terms & Conditions</li>
@@ -335,7 +338,7 @@ disposal.
                     <li class="overview-link">FAQ</li>
                 </ul>
             </div>
-            <div class="social-links">
+            <div class="social-links  md-col-100">
                 <h2>Social Media</h2>
                 <ul class="social-icons flex">
                     <li class="social-icon">Fb</li>
